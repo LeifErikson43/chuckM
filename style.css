@@ -4,7 +4,16 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .hero-image {
+  #hero-image1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/pexels-negative-space-160107.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #hero-image2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/pexels-pixabay-268533.jpg");
     height: 75%;
     background-position: center;
